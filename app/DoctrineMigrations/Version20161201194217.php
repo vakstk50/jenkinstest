@@ -23,8 +23,8 @@ class Version20161201194217 extends AbstractMigration
   '.
 //`numberFormatted` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
   '`priority` int(11) NOT NULL,
-  `name` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `sipDist` varchar(250) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `sipDist` varchar(250) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ');
