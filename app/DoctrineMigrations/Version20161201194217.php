@@ -20,8 +20,9 @@ class Version20161201194217 extends AbstractMigration
   `id` int(11) NOT NULL,
   `group_id` int(11) DEFAULT NULL,
   `number` bigint(20) NOT NULL,
-  `numberFormatted` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
-  `priority` int(11) NOT NULL,
+  '.
+//`numberFormatted` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
+  '`priority` int(11) NOT NULL,
   `name` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   `sipDist` varchar(250) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
