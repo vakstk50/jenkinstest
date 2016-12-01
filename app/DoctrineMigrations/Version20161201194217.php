@@ -26,7 +26,7 @@ class Version20161201194217 extends AbstractMigration
   `name` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   `sipDist` varchar(250) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ');
 $this->addSql('CREATE FUNCTION WEIGHTED_AVERAGE (n1 INT, n2 INT, n3 INT, n4 INT)
   RETURNS INT
