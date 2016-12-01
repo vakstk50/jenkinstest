@@ -25,9 +25,8 @@ class Version20161201194217 extends AbstractMigration
   `name` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   `sipDist` varchar(250) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `IDX_858EB8D9FE54D947` (`group_id`),
-  CONSTRAINT `FK_858EB8D9FE54D947` FOREIGN KEY (`group_id`) REFERENCES `PhoneGroup` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=123465449 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  KEY `IDX_858EB8D9FE54D947` (`group_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 ');
     }
 
