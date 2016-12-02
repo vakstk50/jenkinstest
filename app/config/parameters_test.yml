@@ -1,0 +1,4 @@
+imports:
+    - { resource: parameters.yml }
+parameters:
+    env(DATABASE_URL): %database.mysql.uri%
